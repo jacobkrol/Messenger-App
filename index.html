@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Messenger App</title>
+        <title>Please sign in</title>
     </head>
     <body>
+        <h1>Sign In</h1>
         <form
-        method='post'
-        action='https://darwin-develop-5000.codio.io/messages/new'>
-            <label>Message:</label>
-            <input type='text' name="comment" placeholder='...' /><br>
-            <input type='submit' value='Submit' />
-        </form>
-        <form
-        method='post'
-        action='https://darwin-develop-5000.codio.io/users/new'>
+        method="post"
+        action="https://darwin-develop-5000.codio.io/users/login"
             <label>Username:</label>
             <input type='text' name="username" placeholder='...' /><br>
             <label>Password:</label>
